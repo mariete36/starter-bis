@@ -1,0 +1,14 @@
+.HeroPanel {
+    position: relative;
+    height: 100vh;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: url('../img/hero.jpg') no-repeat top center;
+        background-size: cover;
+    }
+}

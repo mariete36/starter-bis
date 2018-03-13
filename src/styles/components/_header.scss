@@ -1,0 +1,36 @@
+.header {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    padding-top: 16px;
+    &-left {
+        display: flex;
+        align-items: center;
+    }
+    &-logo {
+        display: block;
+        width: 120px;
+        height: 32px;
+        fill: #fff;
+    }
+    &-arrow {
+        border: none;
+        background: none;
+        outline: none;
+    }
+    &-arrowIcon {
+        display: block;
+        width: 13px;
+        height: 10px;
+        stroke: #fff;
+    }
+    &-phoneIcon {
+        display: block;
+        width: 14px;
+        height: 14px;
+        fill: #fff;
+    }
+    &-nav {
+        display: none;
+    }
+}
